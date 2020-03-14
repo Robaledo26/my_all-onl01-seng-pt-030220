@@ -20,5 +20,5 @@ def my_alL? (collection)
   i = 0 
    block_return_va
   lues = []
-  collection.length 
+  collection.length block_return_values >>
 end
