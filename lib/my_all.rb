@@ -18,7 +18,11 @@ end
 
 def my_alL? (collection)
   i = 0 
-   block_return_va
+   block_return_values 
   lues = []
-  collection.length block_return_values >>
+  while i < collection.length 
+  block_return_values << yield(collection[i])
+    i += 1 
+   end
+  end
 end
